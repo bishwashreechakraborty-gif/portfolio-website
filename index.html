@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            color: #333;
+            display: grid;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+
+        .header p {
+            color: #555;
+        }
+
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            color: #34495e;
+        }
+
+        /* Skills using Flexbox */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-box {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* Projects using Flexbox */
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .project-card {
+            background-color: #f4f6f9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Contact Section */
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Bishwashree Chakraborty</h1>
+            <p>Engineering Student | Aspiring Software Engineer</p>
+        </div>
+
+        <!-- About -->
+        <h2>About Me</h2>
+        <p>
+            I am an engineering student passionate about programming,
+            data analysis, and web development.
+        </p>
+
+        <!-- Skills -->
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS (Basics)</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">Flask</div>
+        </div>
+
+        <!-- Projects -->
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                Flask Website
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <h2>Contact</h2>
+        <div class="contact">
+            <p>Email: bishwashree@gmail.com</p>
+            <p>Phone: +91********** </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2026 Bishwashree Chakraborty
+        </div>
+
+    </div>
+
+</body>
+</html>

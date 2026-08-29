@@ -172,6 +172,24 @@ draw_entry(
     "\x95 Developed a food scanning and analysis application helping users track nutritional value.",
     ["React", "Node.js", "API Integration"]
 )
+
+draw_entry(
+    "Student Admission Portal",
+    "Academic Project",
+    "2025",
+    "",
+    "\x95 Built a robust desktop application with Java to streamline the university admission process.",
+    ["Java", "Swing", "MySQL"]
+)
+
+draw_entry(
+    "Digit Recognition",
+    "Personal Project",
+    "2025",
+    "",
+    "\x95 Implemented handwritten digit recognition entirely from scratch without external ML libraries.",
+    ["Python", "Mathematics", "Neural Networks"]
+)
 pdf.ln(1)
 
 # ===== TECHNICAL SKILLS =====

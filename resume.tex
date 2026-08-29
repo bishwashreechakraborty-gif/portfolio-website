@@ -1,0 +1,211 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Bishwashree Chakraborty} \\ \vspace{1pt}
+    B.Tech CSE Student \& Developer | AI/ML | Computer Vision \\ \vspace{1pt}
+    \small \href{mailto:bishwashreechakraborty@gmail.com}{\underline{bishwashreechakraborty@gmail.com}} $|$ 
+    \href{tel:+916000941579}{\underline{+91 60009 41579}} $|$ 
+    \href{https://linkedin.com/in/bishwashree-chakraborty-205621327}{\underline{linkedin.com/in/bishwashree-chakraborty}} $|$
+    \href{https://github.com/bishwashreechakraborty-gif}{\underline{github.com/bishwashreechakraborty-gif}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Passionate B.Tech Computer Science Engineering student at Barak Valley Engineering College with hands-on experience in AI/ML, Computer Vision, and Software Development. Completed a Summer Internship at IIT Guwahati's Technology Innovation Hub on MRI Brain Tumor Segmentation. Proficient in Python, Java, C/C++, React, and Deep Learning frameworks. Actively seeking opportunities to apply technical skills to real-world problems.}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Barak Valley Engineering College}{Assam, India}
+      {Bachelor of Technology in Computer Science Engineering}{Aug 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Coursework}: C, CSS, React, AI/ML, Data Structures \& Algorithms.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Sai Vikash Vidya Niketan}{Assam, India}
+      {All India Senior School Certificate (AISSC), Science (PCM) -- Grade: 73\%}{Aug 2021 -- May 2023}
+    \resumeSubheading
+      {Emmanuel English Higher Secondary School}{Assam, India}
+      {High School Leaving Certificate (HSLC), General Studies -- Grade: 73.33\%}{Feb 2019 -- Jul 2021}
+      \resumeItemListStart
+        \resumeItem{Class Captain. Represented school in science competitions and sports.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Summer Intern - Brain Tumor MRI Segmentation}{Jul 2026 -- Present}
+      {Technology Innovation Hub (IIT Guwahati)}{Guwahati, Assam}
+      \resumeItemListStart
+        \resumeItem{Developed a Deep Learning pipeline for Brain Tumor Classification \& Segmentation from MRI scans.}
+        \resumeItem{Gained hands-on experience with AI model training, data preprocessing, and evaluation techniques.}
+        \resumeItem{Collaborated with research mentors in a professional academic environment.}
+        \resumeItem{\textbf{Skills}: Python, Deep Learning, Artificial Intelligence, Machine Learning}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Social Work Intern}{Jul 2025 -- Aug 2025}
+      {Mother Old Age Home}{Guwahati, Assam}
+      \resumeItemListStart
+        \resumeItem{Assisted in daily operations and social welfare activities for elderly residents.}
+        \resumeItem{Organized engagement programs and conducted field observations.}
+        \resumeItem{Demonstrated strong interpersonal and team collaboration skills.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AI Invisible Cloak} $|$ \emph{Python, OpenCV, HSV Color Detection, NumPy}}{2025}
+          \resumeItemListStart
+            \resumeItem{Built a real-time Computer Vision application that creates an invisibility effect using HSV color detection.}
+            \resumeItem{Implemented background subtraction, morphological filtering, and frame masking with OpenCV.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{MRI Brain Tumor Detection} $|$ \emph{Python, TensorFlow, Deep Learning}}{2026}
+          \resumeItemListStart
+            \resumeItem{Designed a deep learning model to accurately detect and classify brain tumors from MRI scans.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{FoodScan} $|$ \emph{React, Node.js, API Integration}}{2025}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive food scanning and analysis application helping users track nutritional value.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Student Admission Portal} $|$ \emph{Java, Swing, MySQL}}{2025}
+          \resumeItemListStart
+            \resumeItem{Built a robust desktop application with Java to streamline the university admission process.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Digit Recognition} $|$ \emph{Python, Mathematics, Neural Networks}}{2025}
+          \resumeItemListStart
+            \resumeItem{Implemented handwritten digit recognition entirely from scratch without external ML libraries.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, C++, Java, JavaScript, SQL, HTML, CSS} \\
+     \textbf{Frameworks \& Tools}{: React, TensorFlow, OpenCV, NumPy, Pandas, Git, GitHub} \\
+     \textbf{Domains}{: AI/ML, Computer Vision, Deep Learning, Data Analysis, Web Development}
+    }}
+ \end{itemize}
+
+
+%-----------CERTIFICATIONS-----------
+\section{Licenses \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{30-Day Summer Internship - Brain Tumor MRI Segmentation} $|$ \emph{IIT Guwahati} \hfill Jul 2026 \\
+     \textbf{Data Analysis with Python} $|$ \emph{IBM} \hfill Apr 2026 \\
+     \textbf{Claude AI: From Basics to Build} $|$ \emph{PW (PhysicsWallah)} \hfill Apr 2026 \\
+     \textbf{Generative AI for All} $|$ \emph{PW (PhysicsWallah)} \hfill Apr 2026 \\
+     \textbf{Python 101 for Data Science} $|$ \emph{Cognitive Class} \hfill Apr 2026
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

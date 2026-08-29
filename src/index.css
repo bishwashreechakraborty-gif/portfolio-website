@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: #050505;
+  --color-dark: #0B0B0B;
+  --color-red: #FF2028;
+  --color-red-bright: #FF2B32;
+  --color-light: #F5F5F5;
+  
+  --font-sans: 'Inter', sans-serif;
+  
+  --animate-wave: wave 10s linear infinite;
+  
+  @keyframes wave {
+    0% { background-position-x: 0; }
+    100% { background-position-x: 1000px; }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-black);
+    color: white;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, var(--color-red), var(--color-red-bright));
+  }
+}

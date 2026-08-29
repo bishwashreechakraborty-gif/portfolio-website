@@ -224,7 +224,7 @@ bullet("Designed a CNN-based deep learning model for accurate detection and clas
 skill_tags(["Python", "TensorFlow", "Deep Learning", "Medical AI"])
 entry_gap()
 
-entry_header("FoodScan", "Personal Project  -  Full Stack", "2025")
+entry_header("FoodScan", "Academic Group Project  -  Full Stack", "2025")
 bullet("Developed a food scanning and nutritional analysis application with real-time API-driven data retrieval")
 skill_tags(["React", "Node.js", "API Integration"])
 entry_gap()
